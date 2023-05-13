@@ -44,15 +44,19 @@ h3{
 
 .videot1t2t3{
     width: 100%;
-    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     filter:brightness(100%);
-    border-radius: 50px;
+    
 }
 
 p{
     color: #009FBD;
     text-align: justify;
     
+}
+.colorpeliculas{
+    background-color: #222;
 }
 .peliculas{
     background-color: black;
@@ -63,9 +67,9 @@ p{
 
 
 .contenedor-texto-3{
-    background-color: black;
+    
     padding: 20px;
-    text-align: left;
+    text-align: justify;
     color: white;
     
 }
