@@ -1,0 +1,291 @@
+body {
+    font-family: digital, sans-serif;
+    background-color: black;
+}
+
+/* Navbar */
+
+
+
+.logo {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 130px;
+
+}
+
+.nitems {
+    color: #fcdb03 !important;
+
+}
+
+/* Carrousel */
+
+.carrousel {
+    transition: opacity 0.6s ease-out;
+}
+
+.img {
+    filter: brightness(30%);
+}
+
+.colorbtnh5p {
+    color: #fcdb03;
+    color: white;
+}
+
+/* Trailers */
+
+h3{
+    /* margin-top: 50px; */
+    text-align: center;
+    color: white;
+}
+
+.videot1t2t3{
+    width: 100%;
+    height: 500px;
+    filter:brightness(100%);
+    border-radius: 50px;
+}
+
+p{
+    color: #009FBD;
+    text-align: justify;
+    
+}
+.peliculas{
+    background-color: black;
+    color: #fcdb03;
+}
+
+
+
+
+.contenedor-texto-3{
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    
+}
+
+
+
+/* Actores y frases */
+
+.actoresfrases {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h5 {
+    color: #fcdb03;
+    text-align: center;
+}
+
+.card {
+    width: 15rem;
+    display:inline-flex;
+    /* margin-left: 5px; */
+    background-color: #161514;
+    align-items: center;
+}
+
+.margen {
+    margin-top: 5px;
+}
+
+.pfmfebbt {
+    height: 200px;
+    width: 200px;
+}
+
+.MartyMcFly {
+    color: #4b9ab4;
+    padding-left: 10px;
+}
+
+
+.EmmetBrown {
+    color: #4b9ab4;
+    padding-left: 10px;
+}
+
+.Biff {
+    color: #4b9ab4;
+}
+
+.buttonmfebbt {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 2px;
+}
+
+.buttonmf1{
+    padding-right: 1px; 
+    padding-left: 1px; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    margin-left: 2px;
+}
+
+.buttoneb{
+    padding-right: 1px; 
+    padding-left: 1px;
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    margin-left: 2px;
+}
+
+.buttoneb1{
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 2px;
+}
+
+.buttonbt{
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 2px;
+    
+}
+
+/* Conviertete en un fans */
+.f-fans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-form {
+    width: 50rem;
+}
+
+.p-margen-fans {
+    text-align: center;
+    color: #fcdb03;
+}
+
+.fans {
+    text-align: center;
+    color: #fcdb03;
+
+}
+
+.charla-exclusiva {
+    text-decoration: underline dotted;
+}
+
+.bttf-fans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.bttffans {
+    width: 48%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.ta-fans {
+    resize: none;
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.botonceleste {
+    width: 100%;
+    height: 5vh;
+    background-color: #4b9ab4;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.subizquierda {
+    text-align: left;
+}
+
+/* Nuestros Productos */
+
+.nuestrosproductos {
+    margin-top: 15px;
+    color: #fcdb03;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.margen {
+    margin-top: 5px;
+}
+
+.recaza {
+    height: 200px;
+    width: 200px;
+}
+
+.recaza:hover{
+    color:var(--main-color);
+}
+
+.remeraBTF{
+    color: #4b9ab4;
+    padding-left: 10px;
+}
+
+
+.camperaBTF {
+    color: #4b9ab4;
+    padding-left: 10px;
+}
+
+.zapatillaBTF {
+    color: #4b9ab4;
+}
+
+.card-text-btf{
+    color:orangered;
+}
+
+.colorbtnrcz{
+    background-color: #4b9ab4;;
+}
+
+.ulfooter{
+    display: inline-flex;
+}
+
+/* footer */
+
+
+.ulfooter{
+    
+    padding: 1rem;
+}
+
+.nav-item{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nicolor{
+    color:white;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volver al futuro</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/remera.css">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="icono/iconobttf.png">
+</head>
+
+<body>
+
+    <!-- formulario inscripción -->
+    <div class="container">
+        <div class="fs-4 my-4 text-center cremera">Comprar productos: Remera</div>
+
+        <form action="#" method="post">
+            <div class="row">
+                <div class="col-md mb-3">
+                    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre">
+                </div>
+                <div class="col-md mb-3">
+                    <input type="text" name="apellido" id="apellido" class="form-control" required
+                        placeholder="Apellido">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md mb-3">
+                    <input type="email" name="email" id="email" class="form-control" required placeholder="email">
+                </div>
+                <div class="col-md mb-3">
+                    <input type="text" name="tel" id="tel" class="form-control" required placeholder="teléfono movil">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md mb-3">
+                    <input name="cantRemeras" onkeyup="calPrecioFinalRem()" id="cantRemeras" class="form-control"
+                        required placeholder="cantidad remeras">
+                    <small> <strong>Costo de Remera $5000</strong> </small>
+
+
+                </div>
+                <div class="col-md mb-3">
+
+                    <select class="form-select" id="porDescuento">
+                        <option value="10">Sabelotodo</option>
+                        <option value="30">Fetichista</option>
+                        <option value="50">Sentimental</option>
+                    </select>
+
+                </div>
+                <div class="col-md mb-3">
+                    <input type="text" name="precioTotal" id="valorTotal" disabled class="form-control"
+                        placeholder="Valor total con descuento">
+                </div>
+            </div>
+
+            <div class="row ">
+                <input type="submit" value="Comprar" class=" remera btn btn-primary">
+                
+              </div>
+
+              <div class="row mt-2 ">
+                <a href="Index.html" target="_blank"><button type="button" class="colorbtnrcz btn btn-warning">Volver</button></a>
+                
+              </div>
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+    <!-- JS Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- JS propios -->
+    <script src="js/remeras.js"></script>
+
+</body>
+
+</html>
