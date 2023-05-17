@@ -51,25 +51,25 @@
                         <option value="50">Sentimental</option>
                     </select> 
                 </div>
-                <div class="col-md mb-3">
-                    <input name="cantCamperas" onkeyup="calPrecioFinalCam()" id="cantCamperas" class="form-control" required placeholder="cantidad camperas">
+                <div class="col-md mb-3"> 
+                    <input name="cantCamperas" type="number" onchange="calPrecioFinalCam()" onkeyup="calPrecioFinalCam()" id="cantCamperas" class="form-control" required placeholder="cantidad camperas" min="1" max="15">
                     <small> <strong class="costcamp">Costo de campera $10000</strong> </small>
                                        
                 </div>
                 <div class="col-md mb-5">
                     <input type="text" name="precioTotal" id="valorTotal" disabled class="form-control" placeholder="Valor total con descuento">
+                    
                 </div>
             </div>
 
-            <div class="row ">
+            <form action="#" method="post">
                 <input type="submit" value="Comprar" class=" campera btn btn-primary">
-                
-              </div>
+                <input type="reset" value="Limpiar" class=" campera btn btn-primary">
+                <a href="Index.html"><button type="button" class="colorbtnrcz btn btn-warning">Volver</button></a>
+            </form>
+            
 
-              <div class="row mt-2 ">
-                <a href="Index.html" target="_blank"><button type="button" class="colorbtnrcz btn btn-warning">Volver</button></a>
-                
-              </div>
+             
 
 
         
